@@ -1,0 +1,27 @@
+# Documentation Guardian Configuration
+
+# Language settings
+languages:
+  javascript: true
+  typescript: true
+
+# Analysis settings
+analysis:
+  checkFunctions: true
+  checkClasses: true
+  checkMethods: true
+  minFunctionLength: 3
+
+# Documentation requirements
+documentation:
+  requireDescription: true
+  requireParams: true
+  requireReturns: true
+  requireExamples: false
+
+# Report settings
+reporting:
+  includeCoverage: true
+  includeStats: true
+  includeSuggestions: true
+  coverageThreshold: 80
